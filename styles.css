@@ -43,8 +43,9 @@ button:hover {
 }
 
 .bigger {
-	font-size: 150%;
+	font-size: 250%;
 }
+
 .smaller {
 	font-size: 50%;
 }

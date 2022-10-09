@@ -13,11 +13,12 @@ const minus = () => {
 	textPar.classList.toggle("smaller");
 };
 
-let colors = [red, blue, pink, purple, green, yellow];
-// const color = () => {
-// 	let chosenColor;
-// 	plus.style.color = chosenColor;
-// };
+let colors = ["red", "blue", "pink", "purple", "green", "yellow"];
+
+const color = () => {
+	let number = Math.floor(Math.random() * colors.length);
+	textPar.style.color = colors[number];
+};
 
 plusBtn.addEventListener("click", plus);
 minusBtn.addEventListener("click", minus);
