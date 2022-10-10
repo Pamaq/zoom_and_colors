@@ -24,12 +24,9 @@ const color = () => {
 	// let number = Math.floor(Math.random() * colors.length);
 	// textPar.style.color = colors[number]; sposob I czyli moj
 	const r = Math.floor(Math.random() * 255);
-	console.log(r);
 	const g = Math.floor(Math.random() * 255);
-	console.log(g);
 	const b = Math.floor(Math.random() * 255);
-	console.log(b);
-	textPar.style.color = rgb("r", "g", "b");
+	textPar.style.color = `rgb(${r}, ${g}, ${b})`; //to są grawisy!
 };
 
 plusBtn.addEventListener("click", plus);
